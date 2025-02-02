@@ -1,0 +1,79 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+body
+{
+    background-color: #b0d4c2;
+    height: 100vh;
+}
+
+main
+{
+    background-color: whitesmoke;
+    width: 70vw;
+    height: 80vh;
+
+    box-shadow: rgba(76, 114, 95, 0.9) -30px 30px 60px ;
+}
+
+.fixed-grid, .grid, .cell
+{
+    height: 100%;
+}
+
+/* .cell
+{
+    padding: 80px;
+} */
+
+.input
+{
+   padding: 30px 20px; 
+}
+
+.button
+{
+    width: 100%;
+}
+
+.signup
+{
+    text-decoration: underline;
+}
+
+img
+{
+    object-fit: cover;
+    /* width: 100%; */
+    height: 100%;
+    
+}
+
+#imgCell
+{
+    padding: 0px;
+}
+
+#actualImg
+{
+    border-radius: 100px 0px 0px 100px;
+}
+
+.grid, .cell, main
+{
+    border-radius: 100px;
+}
+
+.leftInfo
+{
+    height: 100%;
+}
+
+.signupbtn
+{
+    background-color: rgb(143, 177, 143);
+}
+
+#inputPass
+{
+    margin-bottom: 40px;
+}
